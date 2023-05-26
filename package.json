@@ -8,6 +8,9 @@
     "build": "reveal-md index.md --static build --static-dirs=images && cp style.css build/_assets && cp -a fonts/. build/_assets/fonts/",
     "print": "reveal-md index.md --print slides.pdf --print-size 1024x768"
   },
+  "devDependencies": {
+    "reveal-md": "^5.3.4"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
