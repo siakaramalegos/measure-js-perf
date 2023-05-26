@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "reveal-md index.md --watch",
-    "build": "rm -rf build && reveal-md index.md --highlight-theme github --static build --static-dirs=images && cp style.css build/_assets && cp -a fonts/. build/_assets/fonts/ && touch build/.nojekyll",
-    "deploy": "gh-pages -d build --dotfiles",
+    "build": "reveal-md index.md --static build --static-dirs=images && cp style.css build/_assets && cp -a fonts/. build/_assets/fonts/",
     "print": "reveal-md index.md --print slides.pdf --print-size 1024x768"
   },
   "keywords": [],
