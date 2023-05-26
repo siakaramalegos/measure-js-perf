@@ -14,7 +14,7 @@ revealOptions:
 
 <img src="./images/karamolegkos-tost.jpg" alt="Karamolegkos toasted bread, a popular brand of bread in Greece" class="plain">
 
-<small>Important: I do not know these people.</small>
+<small>I do not know these people. I am not a toast heiress.</small>
 
 ---
 
@@ -26,17 +26,148 @@ revealOptions:
 
 ---
 
-## [sia.codes/posts/webmentions-eleventy-talk/](https://sia.codes/posts/webmentions-eleventy-talk/)
+<!-- TODO -->
+## []()
 
 ---
 
-## Show + Tell
+# Why is performance important?
 
-Webmentions are cool 😎
+---
 
-[sia.codes/posts/architecting-data-in-eleventy/](https://sia.codes/posts/architecting-data-in-eleventy/)
+<img src="./images/champagne_sia.jpg" alt="Sia dressed up as a champagne bottle at Mardi Gras" height="450px" class="no-outline">
 
-Note: Show site with webmentions at bottom. Point out that this isn't a commenting and liking system, and it's my own website. Most come from Twitter because of how I share, but also other websites. In this talk
+---
+
+<!-- .slide: data-background="./images/lighthouse.jpg" -->
+
+---
+
+# 0.3 - 3.0 seconds
+
+until humans lose focus while waiting
+
+---
+
+# 0.3 seconds
+
+after an interaction until humans perceive poor responsiveness
+
+---
+
+## Core Web Vitals
+
+[image]
+
+---
+
+# Why should I care?
+
+---
+
+<h1 class="align-left"><span class="icons"><i class="far fa-newspaper"></i></h1>
+
+## The Economic Times<!-- .element: class="align-left" -->
+
+<div class="align-left">
+  <p class="fragment fade-in-then-semi-out"><span class="icons"><i class="far fa-arrow-down"></i></span> Decreased INP by 75%</p>
+  <p class="fragment fade-in-then-semi-out"><span class="icons"><i class="far fa-arrow-down"></i></span> Lowered bounce rate by 50%</p>
+  <p class="fragment fade-in-then-semi-out"><span class="icons"><i class="far  fa-arrow-up"></i></span> Increased topics page views by 43%</p>
+</div>
+
+---
+
+<h1 class="align-left"><span class="icons"><i class="far fa-bus"></i></h1>
+
+## Redbus<!-- .element: class="align-left" -->
+
+<div class="align-left">
+  <p class="fragment fade-in-then-semi-out"><span class="icons"><i class="far fa-arrow-down"></i></span> Decreased INP by 50%</p>
+  <p class="fragment fade-in-then-semi-out"><span class="icons"><i class="far  fa-arrow-up"></i></span> Increased conversions by 7.5%</p>
+</div>
+
+---
+
+(piggy bank)
+
+---
+
+# Interaction to Next Paint (INP)
+
+---
+
+<img src="./images/inp.webp" class="no-outline">
+
+---
+
+Most of user experience occurs after page load
+
+---
+
+what is it
+click, tap, press
+associated with rage clicks
+< 200ms is good
+but target 100ms to be safe (2-5x difference in mobile processor speeds)
+
+---
+
+# Do I have an INP problem?
+
+---
+
+## Real user monitoring (RUM)
+
+add rum pic
+
+---
+
+Crux
+web-vitals
+Speedcurve
+
+break it down - device, page, etc
+
+---
+
+<span class="icons"><i class="far fa-2x fa-triangle"></i></span>
+
+## Triangulate the source
+
+Use an [INP snippet](https://gist.github.com/tunetheweb/20ffc5719352dd86c215636729760c5c) in Dev Tools or the Chrome [Web Vitals extension](https://web.dev/debug-cwvs-with-web-vitals-extension/
+)
+
+---
+
+## Dive deeper in the Performance Panel
+
+<img src="./images/annie-js-drops.png" alt="" height="300" class="no-outline">
+
+[Intro to Runtime Performance in the Chrome DevTools Performance Panel](https://www.youtube.com/watch?v=3_5DKEx72qk) with Annie Sullivan
+
+---
+
+# Recap <!-- .element: class="align-left" -->
+
+<div class="align-left">
+  <p class="fragment fade-in-then-semi-out"><span class="icons"><i class="fas fa-sack-dollar"></i></span> Performance is important</p>
+  <p class="fragment fade-in-then-semi-out"><span class="icons"><i class="fa fa-stopwatch"></i></span> INP is a new, improved Core Web Vital for JS performance</p>
+  <p class="fragment fade-in-then-semi-out"><span class="icons"><i class="fa fa-cocktail"></i></span> Step 1: Use RUM</p>
+  <p class="fragment fade-in-then-semi-out"><span class="icons"><i class="fa fa-triangle"></i></span> Step 2: Triangulate with snippet</p>
+  <p class="fragment fade-in-then-semi-out"><span class="icons"><i class="fa fa-swimmer"></i></span> Step 3: Dive into the performance panel</p>
+</div>
+
+---
+
+
+<span class="icons"><i class="far fa-2x fa-graduation-cap"></i></span>
+
+## Learn more
+
+- [How to optimize web responsiveness with Interaction to Next Paint](https://www.youtube.com/watch?v=KZ1kxzsJZ5g&t=918s) from Google I/O
+- [Digging into Interaction to Next Paint](https://www.youtube.com/watch?v=bDJB-AQDciE) from NY Web Performance meetup
+- [Advancing Interaction to Next Paint](https://web.dev/inp-cwv/) from web.dev
+- [Optimize Interaction to Next Paint](https://web.dev/optimize-inp/) from web.dev
 
 ---
 
@@ -422,11 +553,7 @@ jobs:
 
 ## Photo credits
 
-- Road possum - Image by <a href="https://pixabay.com/users/csbonawitz-10920947/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3861107">csbonawitz</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3861107">Pixabay</a>
-- Hissing possum - Image by <a href="https://pixabay.com/users/xandepontes-13842118/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4787791">Alexandre Pontes Gomes xande</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4787791">Pixabay</a>
-- Snow possum - [University of Texas biodiversity blog](https://biodiversity.utexas.edu/news/entry/campus-biodiversity-awesome-opossums)
-- Possum with babies - [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Didelphis_virginiana_with_young.JPG)
 - Balloons <span>Photo by <a href="https://unsplash.com/@buco_balkanessi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Bucography</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 - Heart balloons <span>Photo by <a href="https://unsplash.com/@akshar_dave?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Akshar Dave</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 - Balloon and feet dangling - <span>Photo by <a href="https://unsplash.com/@edrecestansberry?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Edrece Stansberry</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-- Possum yelling [tweet](https://twitter.com/PossumEveryHour/status/1325951348291072000)   by [@PossumEveryHour](https://twitter.com/PossumEveryHour)
+- Lighthouse - Photo by <a href="https://unsplash.com/fr/@tamal_mukherjee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tamal Mukhopadhyay</a> on <a href="https://unsplash.com/images/things/lighthouse?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
