@@ -12,27 +12,23 @@ revealOptions:
 
 ---
 
-## hi, i'm sia
-
-[sia.codes](https://sia.codes/)
-
-<img src="./images/champagne_sia.jpg" alt="Sia dressed up as a champagne bottle at Mardi Gras" height="450px" class="no-outline">
-
----
-
-## I'm a terrible Greek.
-
-<ul>
-  <li class="fragment fade-in-then-semi-out">Sia Karamalegos</li>
-  <li class="fragment fade-in-then-semi-out"><del>Sia</del> Aspasia Karamalegos</li>
-  <li class="fragment fade-in-then-semi-out"><del>Sia</del> Aspasia <del>Karamalegos</del> Karamolegkou</li>
-</ul>
+<!-- .slide: data-background="./images/akshar-dave-1GRvY9WUu08-unsplash.jpg" -->
+<h1 class="title" style="text-align:left;"><span class="translucent">Measuring</span> JavaScript <span class="translucent">performance</span></h1>
+<h2 class="subtitle" style="color:#333;text-align:left;">Sia <del>Karamalegos</del> Karamolegkou</h2>
 
 ---
 
 <img src="./images/karamolegkos-tost.jpg" alt="Karamolegkos toasted bread, a popular brand of bread in Greece" class="plain">
 
 <small>I do not know these people. I am not a toast heiress.</small>
+
+---
+
+## hi, i'm sia
+
+[sia.codes](https://sia.codes/)
+
+<img src="./images/champagne_sia.jpg" alt="Sia dressed up as a champagne bottle at Mardi Gras" height="450px" class="no-outline">
 
 ---
 
@@ -133,9 +129,11 @@ Note: click, tap, press; associated with rage clicks
 
 ---
 
-Crux
-web-vitals
-Speedcurve
+## <span class="color-secondary"><i class="fa fa-cocktail"></i></span> Real user monitoring (RUM)
+
+- Chrome User Experience Report (CrUX) - [TREO](https://treo.sh/sitespeed), [PageSpeed Insights](https://pagespeed.web.dev/)
+- [web-vitals npm package](https://github.com/GoogleChrome/web-vitals), send to your analytics
+- [Speedcurve](https://www.speedcurve.com/)
 
 break it down - device, page, etc
 
@@ -145,6 +143,8 @@ break it down - device, page, etc
 
 Use an [INP snippet](https://gist.github.com/tunetheweb/20ffc5719352dd86c215636729760c5c) in Dev Tools or the Chrome [Web Vitals extension](https://web.dev/debug-cwvs-with-web-vitals-extension/
 )
+
+<small>Check out more web perf snippets in this <a href="https://github.com/nucliweb/webperf-snippets">repo</a>.</small>
 
 ---
 
@@ -176,47 +176,14 @@ Use an [INP snippet](https://gist.github.com/tunetheweb/20ffc5719352dd86c2156367
 - [Digging into Interaction to Next Paint](https://www.youtube.com/watch?v=bDJB-AQDciE) from NY Web Performance meetup
 - [Advancing Interaction to Next Paint](https://web.dev/inp-cwv/) from web.dev
 - [Optimize Interaction to Next Paint](https://web.dev/optimize-inp/) from web.dev
-
----
-
-<span class="color-secondary"><i class="far fa-2x fa-laptop"></i>  <i class="far fa-2x fa-ellipsis-h"></i><i class="far fa-2x fa-long-arrow-right"></i> <i class="far fa-2x fa-desktop"></i></span>
-
-> Webmention... enables one website address (URL) to notify another website address that the former contains a reference to the latter.
-
-<small>[Webmentions: Enabling Better Communication on the Internet](https://alistapart.com/article/webmentions-enabling-better-communication-on-the-internet/)</small>
-
----
-
-<!-- .slide: data-background="./images/duotone-yell.jpg" class="dark-highlight-quote" -->
-
-> When you link to a website, you can send it a Webmention to notify it. If it supports Webmentions, then that website may display your post as a comment, like, or other response, and presto, you’re having a conversation from one site to another! <!-- .element: class="dark-background" -->
-
-<small class="dark-background">[indieweb.org](https://indieweb.org/Webmention)<!-- .element: class="dark-background" --></small>
-
----
-
-<span class="fa-stack fa-2x color-secondary">
-  <i class="far fa-building fa-stack-1x" style="color:#222;"></i>
-  <i class="far fa-ban fa-stack-2x"></i>
-</span>
-
-> The IndieWeb is a people-focused alternative to the "corporate web".
-
-<small>[indieweb.org](https://indieweb.org/)</small>
-
----
-
-<!-- .slide: data-background="./images/balloon-feet.jpg" -->
-
-# How does it <br>work?<!-- .element: style="color:#fff;" -->
+- [Intro to Runtime Performance in the Chrome DevTools Performance Panel](https://www.youtube.com/watch?v=3_5DKEx72qk) with Annie Sullivan
 
 ---
 
 <!-- .slide: data-background="./images/akshar-dave-1GRvY9WUu08-unsplash.jpg" -->
 <h1 class="title" style="text-align:left;">Thanks!</h1>
 
-<p style="color:#333;text-align:left;">Slides:<br> <a href="https://sia.codes/posts/webmentions-eleventy-talk/" class="link-secondary">sia.codes/posts/webmentions<br>-eleventy-talk/</a></p>
-<p style="color:#333;text-align:left;">Tutorial:<br> <a href="https://sia.codes/posts/webmentions-eleventy-in-depth/" class="link-secondary">sia.codes/posts/webmentions<br>-eleventy-in-depth/</a></p>
+<p style="color:#333;text-align:left;">Slides:<br> <a href="https://measure-js-perf.netlify.app/#/" class="link-secondary">measure-js-perf.netlify.app</a></p>
 <p style="color:#333;text-align:left;">Writing, resources, and more:<br> <a href="https://sia.codes/" class="link-secondary">sia.codes</a></p>
 
 ---
