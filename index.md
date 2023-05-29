@@ -123,6 +123,16 @@ Note: click, tap, press; associated with rage clicks
 
 ---
 
+## Debugging INP <!-- .element: class="align-left" -->
+
+<div class="align-left">
+  <p class="fragment fade-in-then-semi-out"><span class="color-secondary"><i class="fa fa-cocktail"></i></span> Step 1: Use RUM</p>
+  <p class="fragment fade-in-then-semi-out"><span class="color-secondary"><i class="fa fa-triangle"></i></span> Step 2: Triangulate with snippet</p>
+  <p class="fragment fade-in-then-semi-out"><span class="color-secondary"><i class="fa fa-swimmer"></i></span> Step 3: Dive into the performance panel</p>
+</div>
+
+---
+
 ## <span class="color-secondary"><i class="fa fa-cocktail"></i></span> Real user monitoring (RUM)
 
 <img src="./images/mycarpe_treo.webp" class="no-outline" height="400">
@@ -131,11 +141,11 @@ Note: click, tap, press; associated with rage clicks
 
 ## <span class="color-secondary"><i class="fa fa-cocktail"></i></span> Real user monitoring (RUM)
 
-- Chrome User Experience Report (CrUX) - [TREO](https://treo.sh/sitespeed), [PageSpeed Insights](https://pagespeed.web.dev/)
+- [Chrome User Experience Report (CrUX)](https://developer.chrome.com/docs/crux/) - [TREO](https://treo.sh/sitespeed), [PageSpeed Insights](https://pagespeed.web.dev/)
 - [web-vitals npm package](https://github.com/GoogleChrome/web-vitals), send to your analytics
 - [Speedcurve](https://www.speedcurve.com/)
 
-break it down - device, page, etc
+<small>Slice the data to find the worst offending pages and device types.</small>
 
 ---
 
