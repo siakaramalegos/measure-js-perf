@@ -14,7 +14,7 @@ revealOptions:
 
 <!-- .slide: data-background="./images/akshar-dave-1GRvY9WUu08-unsplash.jpg" -->
 <h1 class="title" style="text-align:left;"><span class="translucent">Measuring</span> JavaScript <span class="translucent">performance</span></h1>
-<h2 class="subtitle" style="color:#333;text-align:left;">Sia <del>Karamalegos</del> Karamolegkou</h2>
+<h2 class="subtitle" style="color:#333;text-align:left;"><del>Sia Karamalegos</del> <br>Aspasia Karamolegkou</h2>
 
 ---
 
@@ -187,6 +187,7 @@ Use an [INP snippet](https://gist.github.com/tunetheweb/20ffc5719352dd86c2156367
 - [Advancing Interaction to Next Paint](https://web.dev/inp-cwv/) from web.dev
 - [Optimize Interaction to Next Paint](https://web.dev/optimize-inp/) from web.dev
 - [Intro to Runtime Performance in the Chrome DevTools Performance Panel](https://www.youtube.com/watch?v=3_5DKEx72qk) with Annie Sullivan
+- [3 ways to find your worst JavaScript offenders for page load](https://performance.shopify.com/blogs/blog/3-ways-to-find-your-worst-javascript-offenders-for-page-load)
 
 ---
 
