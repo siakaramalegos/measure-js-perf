@@ -48,6 +48,10 @@ Note: as my friend x likes to say, no one goes to a website and thinks wow this 
 
 ---
 
+# <i class="fa fa-2x fa-spinner fa-pulse" style="color:#bbb"></i>
+
+---
+
 Performance impacts user experience.
 
 ---
